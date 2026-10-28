@@ -1,9 +1,9 @@
-Subject: What arrives in the box
-Preview: One tea, a set of brewing instructions, and no decisions to make.
+Subject: How the box works
+Preview: One tea, brewing instructions, and no decisions to make.
 
 Hi {{first_name}},
 
-A box arrives once a month. Inside is one tea, chosen for that month, and a card with instructions for brewing it.
+A Steep Club box arrives once a month, and the first box ships on {{first_box_date}}. Inside is one tea, chosen for that month, with brewing instructions.
 
 The brewing instructions give the temperature and the time for that month's tea. Follow them and you're done.
 

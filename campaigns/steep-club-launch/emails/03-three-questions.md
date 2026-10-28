@@ -7,9 +7,9 @@ Three questions worth answering.
 
 What does it cost? It costs {{price}} a month.
 
-What am I committing to? {{commitment_terms}}.
+What am I committing to? The term is {{commitment_terms}}.
 
-Will I actually use it? It is one tea a month, not eight. If you drink tea most days, it will not sit at the back of the cupboard.
+Will I actually use it? It is one tea a month, not a cupboard of half-finished boxes.
 
 [Join The Steep Club](https://kettlebird.example/steep-club)
 
