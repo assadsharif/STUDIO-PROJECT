@@ -30,3 +30,9 @@ first, and only after asking. Writing the email is the job; sending it is not.
 content without checking first. If something looks like it should go, say what it
 is and why, then wait for an answer. This includes overwriting a file with a
 shorter version, which loses the old content just as surely as deleting it.
+
+## Brand voice
+
+Load the voice guide in every session. All copy for Kettlebird Tea follows it.
+
+@brand/voice.md
