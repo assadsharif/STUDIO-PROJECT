@@ -3,7 +3,7 @@ Preview: Price, commitment, and whether you will actually use it.
 
 Hi {{first_name}},
 
-Three questions worth answering.
+Three questions about The Steep Club, answered.
 
 What does it cost? It costs {{price}} a month.
 
