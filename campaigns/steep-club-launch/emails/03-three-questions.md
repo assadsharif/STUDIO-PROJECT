@@ -5,9 +5,9 @@ Hi {{first_name}},
 
 Three questions about The Steep Club, answered.
 
-What does it cost? It costs {{price}} a month.
+What does it cost? It costs £12 (sample) a month.
 
-What am I committing to? The term is {{commitment_terms}}.
+What am I committing to? The term is one box a month, cancel any time (sample).
 
 Will I actually use it? It is one tea a month, not a cupboard of half-finished boxes.
 
@@ -17,4 +17,4 @@ Talk soon,
 — Kettlebird
 
 You're getting this because you joined the Kettlebird Tea waitlist.
-Kettlebird Tea, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
+Kettlebird Tea, 1 Sample Street, London (sample) · Unsubscribe: https://kettlebird.example/unsubscribe

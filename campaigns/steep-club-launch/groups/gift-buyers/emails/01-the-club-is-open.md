@@ -7,7 +7,7 @@ The Steep Club is open. It is a monthly box from Kettlebird Tea: one tea a month
 
 You do not have to think about what to send next. That part is done before the box reaches you.
 
-You joined the waitlist, so you are hearing about this first. It costs {{price}} a month.
+You joined the waitlist, so you are hearing about this first. It costs £12 (sample) a month.
 
 [Join The Steep Club](https://kettlebird.example/steep-club)
 
@@ -15,4 +15,4 @@ Talk soon,
 — Kettlebird
 
 You're getting this because you joined the Kettlebird Tea waitlist.
-Kettlebird Tea, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
+Kettlebird Tea, 1 Sample Street, London (sample) · Unsubscribe: https://kettlebird.example/unsubscribe

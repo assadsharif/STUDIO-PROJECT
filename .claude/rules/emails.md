@@ -66,15 +66,19 @@ mail — the closing line, then the signature:
     Talk soon,
     — Kettlebird
 
-Immediately after the signature come these two footer lines, exactly as written:
+Immediately after the signature come these two footer lines, in this order:
 
 You're getting this because you joined the Kettlebird Tea waitlist.
 Kettlebird Tea, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
 
+`{{company_address}}` and `{{unsubscribe_url}}` are the only parts of the footer
+that may be filled in: a postal address and a working unsubscribe link. Everything
+else stays as written, including the middle dot and the line break. Until the real
+address and unsubscribe link exist, the placeholders stand in.
+
 The footer is plain text in the file. Do not wrap it in a code block, do not turn
-it into a quote, and do not bold it. Keep the middle dot and the spacing as shown.
-The email platform must replace `{{unsubscribe_url}}` with a working unsubscribe
-link; that link is exempt from the one-main-link rule.
+it into a quote, and do not bold it. The unsubscribe link is exempt from the
+one-main-link rule.
 
 Nothing comes after the footer. No postscript, no second signature, no trailing
 note.
