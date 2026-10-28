@@ -1,0 +1,55 @@
+# ---- OS / editor clutter ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# ---- Secrets / local config ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- Logs / temp ----
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# ---- Node.js ----
+node_modules/
+dist/
+build/
+out/
+.next/
+.nuxt/
+coverage/
+.npm/
+.pnpm-store/
+*.tsbuildinfo
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---- Go / Rust / Java ----
+bin/
+target/
+*.class
+.gradle/
