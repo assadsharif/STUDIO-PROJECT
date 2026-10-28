@@ -102,19 +102,22 @@ paragraphs and subject lines, not three separate campaigns. One list, three door
 
 ## 5. Content Calendar
 
-| Week | Content Piece | Channel | Owner/Notes | Status |
+| Week / send date | Content Piece | Audience / channel | Owner/Notes | Status |
 |---|---|---|---|---|
-| **Pre-launch**<br>29 Oct – 1 Nov | List clean-up and segmentation | ESP | Tag the three segments. Remove hard bounces. | Not started |
-| Pre-launch | Warm-up send to the most engaged 20% | Email | Protects deliverability before the real launch. See Risks. | Not started |
-| **Week 1**<br>2–8 Nov | **Email 1 — "The Steep Club is open"** | Email, all segments | The launch. Plain, short, one link. Three subject line variants. | Draft needed |
-| Week 1 | Landing page live before Email 1 | Web | Price, what is in the box, cancel terms. Must exist before anything sends. | Not started |
-| Week 1 | **Email 2 — "What is actually in the box"** | Email, beginners + daily | Answers the beginner question. Brew instructions, a photo, no claims. | Draft needed |
-| **Week 2**<br>9–15 Nov | **Email 3 — "For the person you keep meaning to send something to"** | Email, gift buyers | Gift angle. One clear link to buy as a gift. | Draft needed |
-| Week 2 | **Email 4 — "The three questions we keep getting"** | Email, non-converters | Price, commitment, "will I actually use it". Answer plainly. | Draft needed |
-| **Week 3**<br>16–22 Nov | **Email 5 — "One tea, chosen properly"** | Email, daily drinkers | The deep end: origin, what it tastes like, why this one. | Draft needed |
-| Week 3 | **Email 6 — Founding member window closes Sunday** | Email, all non-buyers | Only if the founding offer is real and genuinely capped. Otherwise cut. | Conditional |
-| **Week 4**<br>23–29 Nov | **Email 7 — Last call, non-openers and non-clickers only** | Email, narrowed list | Smallest possible audience. One line, one link. | Draft needed |
-| Week 4 | **Thank-you + referral ask** | Email, buyers only | Ask buyers to forward it. Free distribution. | Draft needed |
+| **Pre-launch**<br>Thu 29 Oct | List clean-up and segmentation | ESP, whole list | Tag the three segments. Remove hard bounces. | Not started |
+| **Pre-launch**<br>Fri 30 Oct | Warm-up send to the most engaged 20% | Email, most engaged 20% | Protects deliverability before the real launch. See Risks. | Not started |
+| **Week 1**<br>Mon 2 Nov | **Email 1 — "The Steep Club is open"** | Email, all segments | The launch. Plain, short, one link. Three subject line variants. | Draft needed |
+| **Week 1**<br>by Fri 30 Oct | Landing page live before Email 1 | Web | Price, what is in the box, cancel terms. Must exist before anything sends. | Not started |
+| **Week 1**<br>Thu 5 Nov | **Email 2 — "What is actually in the box"** | Email, beginners + daily | Answers the beginner question. Brew instructions, a photo, no claims. | Draft needed |
+| **Week 2**<br>Tue 10 Nov | **Email 3 — "For the person you keep meaning to send something to"** | Email, gift buyers | Gift angle. One clear link to buy as a gift. | Draft needed |
+| **Week 2**<br>Fri 13 Nov | **Email 4 — "The three questions we keep getting"** | Email, non-converters | Price, commitment, "will I actually use it". Answer plainly. | Draft needed |
+| **Week 3**<br>Tue 17 Nov | **Email 5 — "One tea, chosen properly"** | Email, daily drinkers | The deep end: origin, what it tastes like, why this one. | Draft needed |
+| **Week 3**<br>Fri 20 Nov | **Email 6 — Founding member window closes Sunday** | Email, all non-buyers | Only if the founding offer is real and genuinely capped. Otherwise cut. | Conditional |
+| **Week 4**<br>Tue 24 Nov | **Email 7 — Last call, non-openers and non-clickers only** | Email, narrowed list | Smallest possible audience. One line, one link. | Draft needed |
+| **Week 4**<br>Wed 25 Nov | **Thank-you + referral ask** | Email, buyers only | Ask buyers to forward it. Free distribution. | Draft needed |
+
+Every email has one fixed send day. The week label is for the calendar view; the
+date is the commitment. No segment receives two emails within 48 hours.
 
 **Dependencies:**
 
@@ -128,15 +131,15 @@ paragraphs and subject lines, not three separate campaigns. One list, three door
 
 | Asset | Type | What it contains | Priority | When |
 |---|---|---|---|---|
-| Launch email | Email 1 | What The Steep Club is, price, one link | Must-have | By 31 Oct |
-| Landing page | Web page | Price, contents, cancel terms, checkout | Must-have | By 31 Oct |
-| Box explainer | Email 2 | What arrives, how to brew it | Must-have | By 5 Nov |
-| Gift email | Email 3 | Buy as a gift, arrives monthly | Must-have | By 9 Nov |
-| FAQ email | Email 4 | Price, commitment, usage doubts | Must-have | By 11 Nov |
-| Deep-dive email | Email 5 | One tea, properly described | Nice-to-have | By 16 Nov |
-| Closing email | Email 7 | One line, one link | Must-have | By 23 Nov |
-| Subject line variants | Copy | 3 per segment per email, for testing | Must-have | With each draft |
-| Plain-text versions | Copy | Every email | Must-have | With each draft |
+| Launch email | Email 1 | What The Steep Club is, price, one link | Required | By 31 Oct |
+| Landing page | Web page | Price, contents, cancel terms, checkout | Required | By 31 Oct |
+| Box explainer | Email 2 | What arrives, how to brew it | Required | By 5 Nov |
+| Gift email | Email 3 | Buy as a gift, arrives monthly | Required | By 9 Nov |
+| FAQ email | Email 4 | Price, commitment, usage doubts | Required | By 12 Nov |
+| Deep-dive email | Email 5 | One tea, properly described | Optional | By 16 Nov |
+| Closing email | Email 7 | One line, one link | Required | By 23 Nov |
+| Subject line variants | Copy | 3 per segment per email, for testing | Required | With each draft |
+| Plain-text versions | Copy | Every email | Required | With each draft |
 
 ## 7. Success Metrics
 
