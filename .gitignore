@@ -9,6 +9,9 @@ desktop.ini
 !.vscode/extensions.json
 !.vscode/settings.json
 
+# ---- Claude Code (machine-specific, do not share) ----
+.claude/settings.local.json
+
 # ---- Secrets / local config ----
 .env
 .env.*
