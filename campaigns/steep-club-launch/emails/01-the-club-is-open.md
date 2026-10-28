@@ -7,9 +7,9 @@ The Steep Club is open. It is a monthly box from Kettlebird Tea: one tea, chosen
 
 You do not have to work out what to buy. That part is done before the box reaches you.
 
-You joined the waitlist, so you are hearing about this first. The price and the full details are on the page.
+You joined the waitlist, so you are hearing about this first. It costs {{price}} a month.
 
-[Button text](https://kettlebird.example/steep-club)
+[Join The Steep Club](https://kettlebird.example/steep-club)
 
 Talk soon,
 — Kettlebird

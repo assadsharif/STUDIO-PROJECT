@@ -5,11 +5,11 @@ Hi {{first_name}},
 
 A box arrives once a month. Inside is one tea, chosen for that month, and a card with instructions for brewing it.
 
-That is the whole method: water just off the boil, three minutes, done.
+The brewing instructions give the temperature and the time for that month's tea. Follow them and you're done.
 
 The tea changes each month. The instructions change with it. You do not have to keep track of either.
 
-[Button text](https://kettlebird.example/steep-club)
+[Join The Steep Club](https://kettlebird.example/steep-club)
 
 Talk soon,
 — Kettlebird

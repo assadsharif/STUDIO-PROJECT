@@ -1,13 +1,13 @@
-Subject: The launch month ends on 29 November
-Preview: If you want the first box, the page is open until Sunday.
+Subject: Waitlist early access ends on 29 November
+Preview: The Steep Club opens to everyone after Sunday.
 
 Hi {{first_name}},
 
-The launch month ends on Sunday 29 November. After that, The Steep Club opens to everyone, not just the waitlist.
+The waitlist's early access ends on Sunday 29 November. After that, The Steep Club opens to everyone.
 
-If you have been meaning to look, this is the week. The price and the full details are on the page.
+If you want in before then, join here.
 
-[Button text](https://kettlebird.example/steep-club)
+[Join The Steep Club](https://kettlebird.example/steep-club)
 
 Talk soon,
 — Kettlebird
