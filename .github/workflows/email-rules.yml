@@ -1,0 +1,31 @@
+name: Email rules
+
+on:
+  push:
+    paths:
+      - "campaigns/**/emails/*.md"
+      - "scripts/check-emails.mjs"
+      - ".github/workflows/email-rules.yml"
+  pull_request:
+    paths:
+      - "campaigns/**/emails/*.md"
+      - "scripts/check-emails.mjs"
+      - ".github/workflows/email-rules.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: Check campaign emails
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Check emails against .claude/rules/emails.md
+        run: node scripts/check-emails.mjs
