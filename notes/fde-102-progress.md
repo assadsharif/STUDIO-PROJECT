@@ -1,9 +1,8 @@
 # FDE-102 Email Studio Lab — where we got to
 
-The assignment itself is saved next to this file as
-[`assignment-fde-102.md`](assignment-fde-102.md). It is a byte-for-byte copy of
-the original handout — nothing edited, so it can be read again later exactly as
-written.
+The assignment itself is saved at the repo root, in
+[`ASSIGNMENT.md`](../ASSIGNMENT.md). It is a byte-for-byte copy of the original
+handout — nothing edited, so it can be read again later exactly as written.
 
 - Saved: 30 October 2026
 - Part 1 (steps 1–8): done
