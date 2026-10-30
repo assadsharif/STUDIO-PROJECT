@@ -84,4 +84,30 @@ Three checks before installing any skill:
    code; they do not catch a skill that quietly sends my data somewhere, so I read
    the instructions myself first.
 
-**Nothing was installed.** These are notes only.
+**Nothing was installed** from the research above. These are notes only.
+
+---
+
+## Installed 30 Oct 2026 — `wshobson/agents` (`github-actions-templates`)
+
+The first skill actually added to this repo, chosen from skills.sh.
+
+- **What it is:** YAML templates and guidance for GitHub Actions — test matrix,
+  Docker build and push, Kubernetes deploy, security scanning, reusable
+  workflows, deployment approvals.
+- **Numbers:** 17.7K installs, 42K stars on the repo, all three audits pass
+  (Agent Trust Hub, Socket, Snyk). By install count it is the most used
+  general-purpose GitHub Actions skill on skills.sh.
+- **How it was added:** the `SKILL.md` was fetched from the repo and copied
+  verbatim to `.claude/skills/github-actions-templates/SKILL.md`. The
+  `npx skills add` command was **not** run, so no third-party CLI executed here.
+  The copy was diffed against the source and matches character for character.
+- **What I checked first:** the whole file. It is templates and advice — no
+  shell commands for the agent to run, no network calls, no instructions to
+  read or send anything.
+
+**Caveat:** the templates assume an application — Node, Python, Docker,
+Kubernetes. This repo is copy and configuration with no code to build or
+deploy. The skill is a reference for when there is something to run CI against,
+not something to apply now. Applying it today would produce workflows that fail
+on the first step.
