@@ -1,119 +1,49 @@
 # Skills I chose for the email marketing studio
 
-Research done 28 Oct 2026 by running `npx skills find` for "email marketing",
-"email sequence", "campaign plan" and "resend", then checking each publisher on
-GitHub and on skills.sh (install counts, star counts, last push date, and whether
-skills.sh lists the publisher as Official).
+Checked 31 Oct 2026 on skills.sh and GitHub. Star counts are per repository,
+commits are the repo's latest activity, and installs are today's skills.sh
+figures.
 
-Re-checked 31 Oct 2026: `send-email` and `email-sequence` no longer exist in their
-repos, so they are gone from the notes below; the Resend push dates are corrected to
-the real ones. Everything else held — the install numbers are within about 10% of
-today's figures, and both "avoid" warnings are still true.
+## The four skills
 
----
+**1. Email marketing — `coreyhaines31/marketingskills` (`emails`)**
 
-## Use these
+- **Numbers:** 57.6K stars, 81.3K installs, 54 contributors, commits daily
+  (100+ since 1 Oct, last commit 30 Oct). The `emails` skill itself was last
+  updated 15 Oct.
+- **What it does:** writes and optimises email sequences, drip campaigns,
+  lifecycle flows, welcome series and re-engagement emails.
+- **Rename note:** this is the skill that replaced the old `email-sequence`
+  in this repo. The old skills.sh page is still live at 55.1K installs, but
+  the folder is gone from the repo. Install `emails`, not `email-sequence`.
 
-**1. Writing campaigns — `anthropics/knowledge-work-plugins` (`campaign-plan`, `email-sequence`)**
+**2. Email sequence — `anthropics/knowledge-work-plugins` (`email-sequence`)**
 
-This is Anthropic's own repo, not a stranger's. The `anthropics` org has existed
-since 2020, the repo has **33.5K stars** and was pushed today, and skills.sh lists
-Anthropic under **Official**. The `campaign-plan` skill produces a proper brief —
-goal, audience, messaging, channel plan, calendar, success metrics — which is
-exactly the shape of work a studio sells. Installs are modest (3.3K) because it is
-new, not because it is bad. It is the safest source for the *thinking* part of the
-job: strategy, sequences, draft outreach.
+- **Numbers:** Anthropic, listed as Official on skills.sh. The repo has 34.2K
+  stars and was last committed to on 28 Oct. This skill folder was last
+  changed on 13 Mar 2026. Installs: 3.0K.
+- **What it does:** designs full multi-email sequences with copy, timing,
+  branching logic, exit conditions and performance benchmarks.
 
-**2. Sending email — `resend/resend-skills` (`resend`), with `resend/email-best-practices`**
+**3. Campaign plan — `anthropics/knowledge-work-plugins` (`campaign-plan`)**
 
-Resend builds the sending infrastructure, so they are the ones who actually know
-deliverability. `resend` is a **verified Official publisher** on skills.sh, the org
-has been on GitHub since 2022, and both repos are still being maintained (last push
-28 Oct 2026 for `resend-skills`, 8 Oct 2026 for `email-best-practices`). Star counts
-look small (207 and 146) only because these skills repos are months old —
-`resend/react-email`, their older public repo, has **19.9K stars**,
-which is the better read on how established they are. `resend` is the highest-install
-Resend skill (23.7K) and `email-best-practices` covers the boring-but-critical part:
-authentication, list hygiene, compliance. Pair them: one to send, one to not land
-in spam.
+- **Numbers:** Anthropic, Official. Same repo: 34.2K stars, last commit 28 Oct,
+  skill folder last changed 13 Mar 2026. Installs: 3.3K.
+- **What it does:** produces a campaign brief with objectives, audience,
+  messaging, channel plan, content calendar and success metrics.
 
-*Backup worth knowing about:* `coreyhaines31/marketingskills` (`emails`,
-`copywriting`) has **57K stars**, commits daily, and a real site
-(marketing-skills.com). Not official, but the strongest independent option — worth
-a look once the two above are in place.
+**4. Resend — `resend/resend-skills` (`resend`)**
 
----
+- **Numbers:** Resend, Official. 208 stars, 24K installs, 12 contributors,
+  last commit 17 Oct; the `resend` skill folder was updated the same day.
+- **What it does:** sends transactional and batch email, and covers templates,
+  domains, contacts, webhooks and inbound email.
 
-## Avoid these
+## Checks before installing
 
-**1. `claude-office-skills/skills` (`email-marketing`) — name looks official, isn't**
-
-This is the one to be careful with. The org is literally called
-"claude-office-skills", which reads like Anthropic, but **it is not on skills.sh's
-Official list** and is not an Anthropic account. The org was created 29 Jan 2026
-and its last push was **31 Jan 2026 — two days later, then abandoned**. 544 stars
-and 5K installs on a repo that has not been touched in nine months, with a name
-borrowing Anthropic's brand, is a pattern I would not put near client work. The
-skill content is generic filler ("Comprehensive email marketing skill covering
-campaign creation, automated sequences, A/B testing...") with no owner behind it.
-
-**2. `mbfinotti/sales-skills` (`cold-email-deliverability`, `sales-outbound-sequence`) — install numbers don't match reality**
-
-**27.6K installs against 3 stars and 0 forks.** The repo was created 5 Sep 2026 and
-the account publishes across 8 repos at once, with installs accumulating much faster
-than any organic adoption would explain. All three security audits pass, so this is
-not malware — the content on deliverability is actually thoughtful — but a 9,000:1
-install-to-star ratio on a six-week-old repo means the install count is not telling
-you what you think it is telling you. Do not treat it as vetted. (Same pattern,
-though less extreme: `arnabbagxd/brand-building-skills` has 795 stars but was created
-11 Jun 2026 and pushed for only two days before going quiet.)
-
----
-
-## How I decided
-
-Three checks before installing any skill:
-
-1. **Who actually publishes it, and are they the owner of the thing?** A skill runs
-   with my agent's permissions, so the publisher matters more than the content.
-   Check whether skills.sh lists them under **Official**, and whether the GitHub org
-   is the real company (age, other repos, website) or a lookalike name — "claude-"
-   in the owner name proves nothing.
-2. **Do the numbers agree with each other?** Installs, stars, forks, account age and
-   last-push date should tell one story. Huge installs + near-zero stars, or 500+
-   stars on a repo abandoned after 48 hours, means the metric is being inflated or
-   inherited from something else. Also: stars on a giant multi-purpose repo do not
-   transfer to the one skill inside it.
-3. **Read the SKILL.md and the security audits before installing.** skills.sh shows
-   Socket, Snyk and Agent Trust Hub results — all of the above passed, which is why
-   passing audits alone was not enough to decide. The audits catch known-malicious
-   code; they do not catch a skill that quietly sends my data somewhere, so I read
-   the instructions myself first.
-
-**Nothing was installed** from the research above. These are notes only.
-
----
-
-## Installed 30 Oct 2026 — `wshobson/agents` (`github-actions-templates`)
-
-The first skill actually added to this repo, chosen from skills.sh.
-
-- **What it is:** YAML templates and guidance for GitHub Actions — test matrix,
-  Docker build and push, Kubernetes deploy, security scanning, reusable
-  workflows, deployment approvals.
-- **Numbers:** 17.7K installs, 42K stars on the repo, all three audits pass
-  (Agent Trust Hub, Socket, Snyk). By install count it is the most used
-  general-purpose GitHub Actions skill on skills.sh.
-- **How it was added:** the `SKILL.md` was fetched from the repo and copied
-  verbatim to `.claude/skills/github-actions-templates/SKILL.md`. The
-  `npx skills add` command was **not** run, so no third-party CLI executed here.
-  The copy was diffed against the source and matches character for character.
-- **What I checked first:** the whole file. It is templates and advice — no
-  shell commands for the agent to run, no network calls, no instructions to
-  read or send anything.
-
-**Caveat:** the templates assume an application — Node, Python, Docker,
-Kubernetes. This repo is copy and configuration with no code to build or
-deploy. The skill is a reference for when there is something to run CI against,
-not something to apply now. Applying it today would produce workflows that fail
-on the first step.
+1. **Publisher:** is it the real owner? Look for Official on skills.sh and
+   check the GitHub org's age and other repos.
+2. **Numbers agree:** stars, commits and installs should tell one story. A busy
+   repo does not mean the specific skill folder is maintained, and a high
+   install count can outlive a deleted skill.
+3. **Read the skill:** open `SKILL.md` and check the audits before installing.
