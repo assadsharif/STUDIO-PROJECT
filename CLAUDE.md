@@ -31,8 +31,12 @@ content without checking first. If something looks like it should go, say what i
 is and why, then wait for an answer. This includes overwriting a file with a
 shorter version, which loses the old content just as surely as deleting it.
 
-## Brand voice
+## Folder rules
 
-Load the voice guide in every session. All copy for Kettlebird Tea follows it.
+- **`brand/CLAUDE.md`** — brand voice and brand-asset rules.
+- **`leads/CLAUDE.md`** — rules for the practice lead data.
+- **`campaigns/CLAUDE.md`** — campaign structure and email rules.
+
+The brand voice guide is imported here so every session loads it:
 
 @brand/voice.md
