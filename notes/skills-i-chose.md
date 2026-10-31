@@ -5,6 +5,11 @@ Research done 28 Oct 2026 by running `npx skills find` for "email marketing",
 GitHub and on skills.sh (install counts, star counts, last push date, and whether
 skills.sh lists the publisher as Official).
 
+Re-checked 31 Oct 2026: `send-email` and `email-sequence` no longer exist in their
+repos, so they are gone from the notes below; the Resend push dates are corrected to
+the real ones. Everything else held — the install numbers are within about 10% of
+today's figures, and both "avoid" warnings are still true.
+
 ---
 
 ## Use these
@@ -19,20 +24,21 @@ exactly the shape of work a studio sells. Installs are modest (3.3K) because it 
 new, not because it is bad. It is the safest source for the *thinking* part of the
 job: strategy, sequences, draft outreach.
 
-**2. Sending email — `resend/resend-skills` (`resend`, `send-email`), with `resend/email-best-practices`**
+**2. Sending email — `resend/resend-skills` (`resend`), with `resend/email-best-practices`**
 
 Resend builds the sending infrastructure, so they are the ones who actually know
 deliverability. `resend` is a **verified Official publisher** on skills.sh, the org
-has been on GitHub since 2022, and the repos are actively maintained (last push
-17 Oct 2026). Star counts look small (207 and 146) only because these skills repos
-are months old — `resend/react-email`, their older public repo, has **19.9K stars**,
+has been on GitHub since 2022, and both repos are still being maintained (last push
+28 Oct 2026 for `resend-skills`, 8 Oct 2026 for `email-best-practices`). Star counts
+look small (207 and 146) only because these skills repos are months old —
+`resend/react-email`, their older public repo, has **19.9K stars**,
 which is the better read on how established they are. `resend` is the highest-install
 Resend skill (23.7K) and `email-best-practices` covers the boring-but-critical part:
 authentication, list hygiene, compliance. Pair them: one to send, one to not land
 in spam.
 
-*Backup worth knowing about:* `coreyhaines31/marketingskills` (`email-sequence`,
-`copywriting`, `emails`) has **57K stars**, commits daily, and a real site
+*Backup worth knowing about:* `coreyhaines31/marketingskills` (`emails`,
+`copywriting`) has **57K stars**, commits daily, and a real site
 (marketing-skills.com). Not official, but the strongest independent option — worth
 a look once the two above are in place.
 
