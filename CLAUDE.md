@@ -21,10 +21,13 @@ from a press release, rewrite it. This applies to the campaigns we write for the
 client too, not just to notes for ourselves.
 
 **Never send email to real people.** Nothing in this studio sends to a live
-audience. Do not connect a real sending account, do not import a real customer
-list, and do not run any command that would deliver mail to an actual inbox. If a
-test send is needed, it goes to a dedicated test address that you have approved
-first, and only after asking. Writing the email is the job; sending it is not.
+audience. Do not import a real customer list, and do not run any command that
+would deliver mail to an actual inbox. Resend is the one exception: sending
+through Resend is allowed only to Resend's test addresses (ending in
+`@resend.dev`) and to the studio owner's own email address. A send guard will
+enforce this in the next step. If a test send is needed, it goes to a dedicated
+test address that you have approved first, and only after asking. Writing the
+email is the job; sending it is not.
 
 **Ask before deleting anything.** No deleting files, folders, campaigns, or
 content without checking first. If something looks like it should go, say what it
